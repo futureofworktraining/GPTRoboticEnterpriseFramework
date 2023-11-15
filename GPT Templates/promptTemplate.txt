@@ -1,0 +1,17 @@
+﻿Think step by step and take your time to generate a UiPath selector for the UI element: '{0}'
+
+Selector needs to be in UiPath format, for example: <webctrl [attribute name]='[attribute value]'  [attribute name]='[attribute value]'  ... /> and it consists of all the attributes for the given UI element.
+
+List of rules to follow while creating the selector:
+- For 'class' attribute, leave only the first class name and replace the rest with a wildcard. '*'. ex: [class='classname next_classname'] to [class='classname*']
+- For tag button or btn add 'aaname' attribute to the selector.
+- Selector cannot contain innertext or parentid attribute.
+- Selector needs to start with "<webctrl" and end with "/>"
+- Selector needs to have more than one attribute.
+
+Provide the result of the final step as JSON ex.: {{[UI element name]: [selector]}}.
+
+Do not include any additional comments or remarks provide only requested JSON.
+
+Use the HTML code below to create selectors:
+{1}

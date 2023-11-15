@@ -1,0 +1,8 @@
+﻿The selector is not working. Please create a new one. Think how the selector can be improved using guidlines below:
+
+- Make sure that attributes are relevant for the given UI element. 
+- Try using 'parrentclass' instead of 'class' attribute.
+- Remove or add some attributes like: 'class', 'aaname', if needed.
+- The new selector cannot be the same like  the previous one.
+- You may need to remove 'aaname' attribute from the button selector.
+- Do not use attributes like 'onclick'.

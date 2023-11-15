@@ -1,0 +1,36 @@
+﻿{
+  "Settings":{
+	"OrchestratorQueueFolder": "GPTReframework", 
+    "OrchestratorQueueName":"TicketsToSubmitQueue",
+    "logF_BusinessProcessName":"TicketsToSubmit"
+  },
+  "Constants":{
+    "MaxRetryNumber":0,
+	"MaxConsecutiveSystemExceptions": 3,
+	"ShouldMarkJobAsFaulted": false,
+	"RetryNumberGetTransactionItem" : 2,
+	"RetryNumberSetTransactionStatus" : 2,
+    "TimeoutShort":3000,
+    "TimeoutMedium":30000,
+    "TimeoutLong":120000,
+    "ExScreenshotsFolderPath":"Exceptions_Screenshots",
+    "DelayShort":1000,
+    "DelayMedium":15000,
+    "DelayLong":60000,
+    "AccuracyLow":0.6,
+    "AccuracyMedium":0.8,
+    "AccuracyHigh":0.9,
+    "LogMessage_GetTransactionData":"Processing Transaction Number: ",
+    "LogMessage_GetTransactionDataError":"Error getting transaction data for Transaction Number: ",
+    "LogMessage_Success":"Transaction Successful.",
+    "LogMessage_BusinessRuleException":"Business rule exception.",
+    "LogMessage_ApplicationException":"System exception.",
+	"GPTMaxTokens" : 500,
+	"GPTModel" : "gpt-3.5-turbo-16k",
+	"GPTRole" : "An expert HTML developer."
+  },
+  "Assets":[
+  		    "ProcessPrefix",
+	  		"ProcessSufix"
+	  	]
+}

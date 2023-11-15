@@ -1,0 +1,148 @@
+{
+  "Ticketing System - RPA Credit Bank": {
+    "applicationName": "Ticketing System - RPA Credit Bank",
+    "applicationHeader": "<html app='chrome.exe' title='Ticketing System - RPA Credit Bank*' />",
+    "path": "https://futureofworkblog.web.app/ticketingSystem/SubmitCase_OldVersion.html",
+    "Name text box": {
+      "uiElementName": "Name text box",
+      "componentName": "1.1 Insert Ticket",
+      "selector": "<html app='chrome.exe' title='Ticketing System - RPA Credit Bank*' /><webctrl id='name' class='validate' type='text' />"
+    },
+    "Surname text box": {
+      "uiElementName": "Surname text box",
+      "componentName": "1.1 Insert Ticket",
+      "selector": "<html app='chrome.exe' title='Ticketing System - RPA Credit Bank*' /><webctrl tag='input' class='validate' id='surname' />"
+    },
+    "Email text box": {
+      "uiElementName": "Email text box",
+      "componentName": "1.1 Insert Ticket",
+      "selector": "<html app='chrome.exe' title='Ticketing System - RPA Credit Bank*' /><webctrl tag='input' id='email' class='validate' type='email' />"
+    },
+    "Ticket textarea": {
+      "uiElementName": "Ticket textarea",
+      "componentName": "1.1 Insert Ticket",
+      "selector": "<html app='chrome.exe' title='Ticketing System - RPA Credit Bank*' /><webctrl tag='textarea' id='ticket' parentclass='input-field col s12' />"
+    },
+    "Select country list": {
+      "uiElementName": "Select country list",
+      "componentName": "1.1 Insert Ticket",
+      "selector": "<html app='chrome.exe' title='Ticketing System - RPA Credit Bank*' /><webctrl tag='select' id='country' />"
+    },
+    "Submit button": {
+      "uiElementName": "Submit button",
+      "componentName": "1.1 Insert Ticket",
+      "selector": "<html app='chrome.exe' title='Ticketing System - RPA Credit Bank*' /><webctrl tag='button' aaname='Submit' class='btn*'/>"
+    },
+    "Ticket number value": {
+      "uiElementName": "Ticket number value",
+      "componentName": "1.2 Read Ticket ID",
+      "selector": "<html app='chrome.exe' title='Ticketing System - RPA Credit Bank*' /><webctrl tag='span' parentclass='confirmation-container' />",
+      "expectedValue": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+    },
+    "Refresh button": {
+      "uiElementName": "Refresh button",
+      "componentName": "1.2 Read Ticket ID",
+      "selector": "<html app='chrome.exe' title='Ticketing System - RPA Credit Bank*' /><webctrl tag='button' aaname='Refresh' class='btn*'/>"
+    }
+  },
+  "ACME System 1": {
+    "applicationName": "ACME System 1",
+    "applicationHeader": "<html app='chrome.exe' title='ACME System 1*' />",
+    "path": "https://acme-test.uipath.com",
+    "Email text box": {
+      "uiElementName": "Email text box",
+      "componentName": "1.1 Login",
+      "selector": "<html app='chrome.exe' title='ACME System 1*' /><webctrl id='test'/>"
+    },
+    "Password text box": {
+      "uiElementName": "Password text box",
+      "componentName": "1.1 Login",
+      "selector": "<html app='chrome.exe' title='ACME System 1*' /><webctrl id='test'/>"
+    },
+    "Login button": {
+      "uiElementName": "Login button",
+      "componentName": "1.1 Login",
+      "selector": "<html app='chrome.exe' title='ACME System 1*' /><webctrl id='test'/>"
+    },
+    "User options button": {
+      "uiElementName": "User options button",
+      "componentName": "1.2 Select Menu Item",
+      "selector": "<html app='chrome.exe' title='ACME System 1*' /><webctrl id='test'/>"
+    },
+    "Work Items button": {
+      "uiElementName": "Work Items button",
+      "componentName": "1.2 Select Menu Item",
+      "selector": "<html app='chrome.exe' title='ACME System 1*' /><webctrl id='test'/>"
+    },
+    "Accounts button": {
+      "uiElementName": "Accounts button",
+      "componentName": "1.2 Select Menu Item",
+      "selector": "<html app='chrome.exe' title='ACME System 1*' /><webctrl id='test'/>"
+    },
+    "Logout link": {
+      "uiElementName": "Logout link",
+      "componentName": "1.2 Select Menu Item",
+      "selector": "<html app='chrome.exe' title='ACME System 1*' /><webctrl id='test'/>"
+    }
+  },
+  "Future of Work Challenge": {
+    "applicationName": "Future of Work Challenge",
+    "applicationHeader": "<html app='chrome.exe' title='RPA in Practice 2020 Challange'/>",
+    "path": "https://futureofworkblog.web.app/challenge2021.html#",
+    "Full Name text box": {
+      "uiElementName": "Full Name text box",
+      "componentName": "1.1 Insert Data",
+      "selector": "<html app='chrome.exe' title='RPA in Practice 2020 Challange'/><webctrl id='test' />"
+    },
+    "Occupation text box": {
+      "uiElementName": "Occupation text box",
+      "componentName": "1.1 Insert Data",
+      "selector": "<html app='chrome.exe' title='RPA in Practice 2020 Challange'/><webctrl id='test' />"
+    },
+    "Address text box": {
+      "uiElementName": "Address text box",
+      "componentName": "1.1 Insert Data",
+      "selector": "<html app='chrome.exe' title='RPA in Practice 2020 Challange'/><webctrl id='test' />"
+    },
+    "Email textarea": {
+      "uiElementName": "Email textarea",
+      "componentName": "1.1 Insert Data",
+      "selector": "<html app='chrome.exe' title='RPA in Practice 2020 Challange'/><webctrl id='test' />"
+    },
+    "Contractor tick box": {
+      "uiElementName": "Contractor tick box",
+      "componentName": "1.1 Insert Data",
+      "selector": "<<html app='chrome.exe' title='RPA in Practice 2020 Challange'/><webctrl id='test' />"
+    },
+    "Select region button": {
+      "uiElementName": "Select region button",
+      "componentName": "1.1 Insert Data",
+      "selector": "<html app='chrome.exe' title='RPA in Practice 2020 Challange'/><webctrl id='test' />"
+    },
+    "Applicable for bonus radio buttons": {
+      "uiElementName": "Applicable for bonus radio buttons",
+      "componentName": "1.1 Insert Data",
+      "selector": "<html app='chrome.exe' title='RPA in Practice 2020 Challange'/><webctrl id='test' />"
+    },
+    "Minimum salary (per hour) slider": {
+      "uiElementName": "Minimum salary (per hour) slider",
+      "componentName": "1.1 Insert Data",
+      "selector": "<html app='chrome.exe' title='RPA in Practice 2020 Challange'/><webctrl id='test' />"
+    },
+    "Maximum salary (per hour) slider": {
+      "uiElementName": "Maximum salary (per hour) slider",
+      "componentName": "1.1 Insert Data",
+      "selector": "<html app='chrome.exe' title='RPA in Practice 2020 Challange'/><webctrl id='test' />"
+    },
+    "Countries supported list": {
+      "uiElementName": "Countries supported list",
+      "componentName": "1.1 Insert Data",
+      "selector": "<html app='chrome.exe' title='RPA in Practice 2020 Challange'/><webctrl id='test' />"
+    },
+    "Hire Date date picker": {
+      "uiElementName": "Hire Date date picker",
+      "componentName": "1.1 Insert Data",
+      "selector": "<html app='chrome.exe' title='RPA in Practice 2020 Challange'/><webctrl id='test' />"
+    }
+  }
+}
