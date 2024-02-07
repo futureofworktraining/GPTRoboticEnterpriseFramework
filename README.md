@@ -3,7 +3,7 @@
 
 ### Introduction ###
 
-This is a modified version of REFramework that uses OpenAI API to query GPT AI models (GPT-3.5-16k  by default) to create, fix and maintain selectors. Please mind, this is an experiment, that shouldn't be implemented on production without a consultation. Selectors are store in applicationModel.json file, so the solution can store and maintain them of the fly. For more details please check the project documentation on GitHub and watch corresponsing video and the demo presentation.
+This is a modified version of REFramework that uses OpenAI API to query GPT AI models (GPT-3.5-16k  by default) to create, fix and maintain selectors. Please mind, this is an experiment, that shouldn't be implemented on production without a consultation. Selectors are store in applicationModel.json file, so the solution can store and maintain them of the fly. For more details please check the project documentation on GitHub and watch corresponsing video and the demo presentation. https://www.youtube.com/watch?v=m0AbiNFfYG0
 
 ### Architecture ###
 
